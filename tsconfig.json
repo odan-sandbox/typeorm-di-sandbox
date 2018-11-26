@@ -19,5 +19,7 @@
     "experimentalDecorators": true,
     "pretty": true,
   },
-  "include": []
+  "include": [
+    "./src/**/*.ts"
+  ]
 }
