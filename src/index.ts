@@ -39,7 +39,7 @@ createConnection().then(async connection => {
   })
 
   console.log('start listen')
-
+  console.log(Container['globalInstance'].services)
   app.listen(3000)
 
 }).catch(error => console.log(error))
