@@ -10,6 +10,7 @@
     "declaration": true,
     "moduleResolution": "node",
     "strict": true,
+    "strictPropertyInitialization": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
@@ -17,7 +18,12 @@
     "forceConsistentCasingInFileNames": true,
     "skipDefaultLibCheck": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "pretty": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+    }
   },
   "include": [
     "./src/**/*.ts"
